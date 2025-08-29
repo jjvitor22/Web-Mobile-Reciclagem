@@ -18,4 +18,3 @@ Geração de Ideias
 seus impactos e como descartá-lo. 
 • Incluir um mapa ou lista de pontos de coleta próximos. 
 • Destacar também os benefícios da reciclagem.
-Wireframe
