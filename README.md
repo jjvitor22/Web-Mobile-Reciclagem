@@ -18,3 +18,10 @@ Geração de Ideias
 seus impactos e como descartá-lo. 
 • Incluir um mapa ou lista de pontos de coleta próximos. 
 • Destacar também os benefícios da reciclagem.
+
+
+Nomes e Ra:  
+João Vitor Gonçalves / 10737592 
+Enzo Carvalho Pagliarini / 10425707 
+Alex Cardoso Oliveira / 10736415 
+Guilherme Gomes Ferransi / 10403372 
