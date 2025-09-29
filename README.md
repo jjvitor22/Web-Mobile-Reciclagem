@@ -78,6 +78,126 @@ A altura da “.imagem” diminui para melhor visualização em telas pequenas.
 
 
 
+# Tutorial  do código HTML, CSS e JavaScript
+1. Header (Cabeçalho)
+
+HTML:
+O cabeçalho contém o título principal do site e uma barra de navegação com links para as páginas:
+
+Página Inicial
+
+Como Descartar
+
+Pontos de Coleta
+
+Contato
+
+CSS:
+
+Fundo verde claro (#1bd39d).
+
+Links pretos, em negrito e que mudam para azul ao passar o mouse.
+
+Navegação organizada com Flexbox, centralizando os itens e aplicando espaçamento.
+
+Função:
+Exibir o título e apresentar o menu principal de navegação da página.
+
+2. Main (Conteúdo Principal)
+
+HTML:
+O conteúdo principal possui várias seções:
+
+Explicação sobre o descarte consciente do lixo eletrônico.
+
+Lista com os impactos ambientais e na saúde.
+
+Lista ordenada com passos para descartar corretamente.
+
+Lista personalizada com marcador de localização para pontos de coleta.
+
+Benefícios da reciclagem.
+
+Botão “Saiba Mais” que redireciona para a página de descarte.
+
+Botão “Entre em Contato” que abre o formulário em uma nova janela.
+
+Jogo interativo de arrastar e soltar, onde o usuário deve colocar os itens nas lixeiras corretas.
+
+CSS:
+
+O main usa Flexbox para organizar o conteúdo em colunas quando em telas grandes.
+
+A seção .conteudo ocupa até 65% da largura.
+
+Listas não ordenadas não usam marcadores padrão, substituídos por marcador de localização personalizado.
+
+Estilo do formulário (contato.html) com fundo branco, bordas arredondadas e sombra.
+
+Estilo do jogo: itens arrastáveis representados por ícones grandes e lixeiras com borda tracejada.
+
+Função:
+Transmitir as informações principais do site de forma clara, organizada e interativa.
+
+3. Footer (Rodapé)
+
+HTML:
+O rodapé contém apenas um texto simples com os créditos dos desenvolvedores.
+
+CSS:
+
+Fundo verde (#1bd39d), igual ao cabeçalho.
+
+Texto centralizado.
+
+Fonte menor, para diferenciar do conteúdo principal.
+
+Função:
+Identificar o rodapé da página e exibir os créditos dos criadores.
+
+4. Responsividade
+
+Até 900px de largura:
+
+O conteúdo principal (main) muda para layout vertical (coluna).
+
+A seção de conteúdo passa a ocupar 100% da largura.
+
+Até 500px de largura:
+
+O cabeçalho muda para layout vertical, com menos espaçamento.
+
+Links do menu passam a ser exibidos em coluna e centralizados.
+
+A classe .imagem (quando usada) passa a ocupar toda a largura e altura reduzida para melhor exibição em telas pequenas.
+
+5. JavaScript (Interatividade)
+
+Botão "Saiba Mais":
+Quando clicado, redireciona o usuário para a página “Como Descartar”.
+
+Botão "Entre em Contato":
+Abre o formulário de contato em uma nova janela (popup).
+
+Jogo de Arrastar e Soltar:
+
+O usuário pode arrastar itens como celular, notebook e garrafa plástica.
+
+Cada item tem um tipo definido (eletrônico ou plástico).
+
+Existem lixeiras configuradas para aceitar apenas um tipo de item.
+
+Se o usuário soltar no local correto → aparece mensagem verde: “Acertou! Bom descarte!”.
+
+Se errarz aparece mensagem vermelha: “Lixeira errada! Tente de novo.”
+
+Quando o acerto acontece, o item desaparece da tela.
+
+Função:
+Deixar o site mais dinâmico, interativo e educativo.
+
+
+
 Nomes e Ra:  
 João Vitor Gonçalves / 10737592 
 Enzo Carvalho Pagliarini / 10425707 
