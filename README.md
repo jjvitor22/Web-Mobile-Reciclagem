@@ -19,183 +19,90 @@ seus impactos e como descartá-lo.
 • Incluir um mapa ou lista de pontos de coleta próximos. 
 • Destacar também os benefícios da reciclagem.
 
-# Tutorial do Código HTML e CSS
-1. Header (Cabeçalho)
+# Caráter Extensionista
+Este projeto busca:
+- Levar conhecimento científico e ambiental da sala de aula para a comunidade.
+- Promover a conscientização sobre sustentabilidade.
+- Ensinar de forma prática como descartar eletrônicos.
+- Oferecer um formulário de contato para que a comunidade possa tirar dúvidas ou denunciar descartes irregulares.
+Ou seja, conecta educação + tecnologia + impacto social.
 
+
+# Tutorial HTML, CSS e JavaScript
+
+Header (Cabeçalho)
 HTML:
-Contém uma barra de navegação (nav) com uma lista (ul) de links (a):
-
--Sobre
-
--Título
-
--Contato
-
+•	Contém o título principal do site.
+•	Inclui uma barra de navegação (<nav>) com links:
+o	Página Inicial
+o	Como Descartar
+o	Pontos de Coleta
+o	Contato
 CSS:
-O cabeçalho tem fundo verde claro (#1bd39d), os links são em negrito, pretos, e mudam para azul ao passar o mouse.
-Utiliza Flexbox para centralizar e distribuir os links horizontalmente com espaçamento (gap).
-Função: Apresentar o menu principal de navegação da página.
-
-2. Main (Conteúdo Principal)
-
+•	Fundo verde claro (#1bd39d).
+•	Links em negrito, pretos, que mudam para azul ao passar o mouse.
+•	Navegação organizada com Flexbox, centralizando os itens e aplicando espaçamento.
+Função: Exibir o título e apresentar o menu principal de navegação da página. ✅
+________________________________________
+Main (Conteúdo Principal)
 HTML:
-Contém uma seção “.conteudo” com vários títulos (h1, h2, h3), parágrafos (p), listas ordenadas (ol) e não ordenadas (ul):
-
--Explica sobre o descarte correto do lixo eletrônico.
-
--Passos para descartar.
-
--Impactos na saúde e meio ambiente.
-
--Pontos de coleta com lista personalizada (marcada com emoji 📍).
-
--Benefícios da reciclagem.
-
+•	Contém várias seções:
+o	Explicação sobre o descarte consciente do lixo eletrônico.
+o	Lista com impactos ambientais e na saúde.
+o	Lista ordenada com passos para descartar corretamente.
+o	Lista personalizada com marcador de localização para pontos de coleta.
+o	Benefícios da reciclagem.
+o	Botão “Saiba Mais” → redireciona para a página de descarte.
+o	Botão “Entre em Contato” → abre o formulário em nova janela.
+o	Jogo interativo de arrastar e soltar, onde o usuário coloca os itens nas lixeiras corretas.
 CSS:
-O main usa Flexbox para dispor os elementos lado a lado, com espaçamento entre eles.
-A seção. Conteúdo ocupa até 65% da largura disponível.
-Listas não ordenadas não exibem marcadores padrão, usando emoji 📍 como marcador personalizado.
-Função: Exibir o conteúdo principal da página de forma organizada e clara.
-
-3. Footer (Rodapé)
-
+•	Uso de Flexbox para organizar o conteúdo em colunas em telas grandes.
+•	.conteudo ocupa até 65% da largura.
+•	Listas não ordenadas usam marcadores personalizados (em vez de padrão).
+•	Estilo do formulário (contato.html): fundo branco, bordas arredondadas, sombra.
+•	Estilo do jogo:
+o	Itens arrastáveis representados por ícones grandes.
+o	Lixeiras com borda tracejada.
+Função: Apresentar as informações principais do site de forma clara, organizada e interativa.
+________________________________________
+Footer (Rodapé)
 HTML:
-Texto simples: "desenvolvedores".
-
+•	Contém apenas texto simples com créditos dos desenvolvedores.
 CSS:
-Fundo verde igual ao cabeçalho, texto centralizado e com fonte menor.
-Função: Identificar o rodapé da página, normalmente usados para informações complementares.
-
-4. Responsividade
+•	Fundo verde (#1bd39d), igual ao cabeçalho.
+•	Texto centralizado.
+•	Fonte menor, diferenciando do conteúdo principal.
+Função: Identificar o rodapé da página e exibir os créditos dos criadores.
+________________________________________
+Responsividade
 Até 900px de largura:
-“.conteúdo” principal (main) muda para layout vertical (coluna).
-O conteúdo passa a ocupar 100% da largura.
-A classe “.imagem” (embora não usada no HTML) se ajusta para largura total e altura fixa.
-
+•	main muda para layout vertical (coluna).
+•	.conteudo passa a ocupar 100% da largura.
 Até 500px de largura:
-O cabeçalho (header) muda para layout vertical, com espaçamento menor e texto centralizado.
-A altura da “.imagem” diminui para melhor visualização em telas pequenas.
+•	header muda para layout vertical, com menos espaçamento.
+•	Links do menu exibidos em coluna e centralizados.
+•	.imagem (quando usada) ocupa toda a largura e altura reduzida para telas pequenas.
+Layout adaptável a diferentes tamanhos de tela.
+________________________________________
+JavaScript (Interatividade)
+•	Botão “Saiba Mais”: redireciona para a página “Como Descartar”.
+•	Botão “Entre em Contato”: abre formulário em nova janela (popup).
+•	Jogo de Arrastar e Soltar:
+o	Itens: celular, notebook, garrafa plástica.
+o	Cada item tem um tipo definido (eletrônico ou plástico).
+o	Lixeiras aceitam apenas um tipo de item.
+o	Se o usuário soltar no local correto → mensagem verde: “Acertou! Bom descarte!”.
+o	Se errar → mensagem vermelha: “Lixeira errada! Tente de novo.”
+o	Acerto remove o item da tela.
+Função: Tornar o site mais dinâmico, educativo e interativo.
 
-
-
-# Tutorial  do código HTML, CSS e JavaScript
-1. Header (Cabeçalho)
-
-HTML:
-O cabeçalho contém o título principal do site e uma barra de navegação com links para as páginas:
-
-Página Inicial
-
-Como Descartar
-
-Pontos de Coleta
-
-Contato
-
-CSS:
-
-Fundo verde claro (#1bd39d).
-
-Links pretos, em negrito e que mudam para azul ao passar o mouse.
-
-Navegação organizada com Flexbox, centralizando os itens e aplicando espaçamento.
-
-Função:
-Exibir o título e apresentar o menu principal de navegação da página.
-
-2. Main (Conteúdo Principal)
-
-HTML:
-O conteúdo principal possui várias seções:
-
-Explicação sobre o descarte consciente do lixo eletrônico.
-
-Lista com os impactos ambientais e na saúde.
-
-Lista ordenada com passos para descartar corretamente.
-
-Lista personalizada com marcador de localização para pontos de coleta.
-
-Benefícios da reciclagem.
-
-Botão “Saiba Mais” que redireciona para a página de descarte.
-
-Botão “Entre em Contato” que abre o formulário em uma nova janela.
-
-Jogo interativo de arrastar e soltar, onde o usuário deve colocar os itens nas lixeiras corretas.
-
-CSS:
-
-O main usa Flexbox para organizar o conteúdo em colunas quando em telas grandes.
-
-A seção .conteudo ocupa até 65% da largura.
-
-Listas não ordenadas não usam marcadores padrão, substituídos por marcador de localização personalizado.
-
-Estilo do formulário (contato.html) com fundo branco, bordas arredondadas e sombra.
-
-Estilo do jogo: itens arrastáveis representados por ícones grandes e lixeiras com borda tracejada.
-
-Função:
-Transmitir as informações principais do site de forma clara, organizada e interativa.
-
-3. Footer (Rodapé)
-
-HTML:
-O rodapé contém apenas um texto simples com os créditos dos desenvolvedores.
-
-CSS:
-
-Fundo verde (#1bd39d), igual ao cabeçalho.
-
-Texto centralizado.
-
-Fonte menor, para diferenciar do conteúdo principal.
-
-Função:
-Identificar o rodapé da página e exibir os créditos dos criadores.
-
-4. Responsividade
-
-Até 900px de largura:
-
-O conteúdo principal (main) muda para layout vertical (coluna).
-
-A seção de conteúdo passa a ocupar 100% da largura.
-
-Até 500px de largura:
-
-O cabeçalho muda para layout vertical, com menos espaçamento.
-
-Links do menu passam a ser exibidos em coluna e centralizados.
-
-A classe .imagem (quando usada) passa a ocupar toda a largura e altura reduzida para melhor exibição em telas pequenas.
-
-5. JavaScript (Interatividade)
-
-Botão "Saiba Mais":
-Quando clicado, redireciona o usuário para a página “Como Descartar”.
-
-Botão "Entre em Contato":
-Abre o formulário de contato em uma nova janela (popup).
-
-Jogo de Arrastar e Soltar:
-
-O usuário pode arrastar itens como celular, notebook e garrafa plástica.
-
-Cada item tem um tipo definido (eletrônico ou plástico).
-
-Existem lixeiras configuradas para aceitar apenas um tipo de item.
-
-Se o usuário soltar no local correto → aparece mensagem verde: “Acertou! Bom descarte!”.
-
-Se errarz aparece mensagem vermelha: “Lixeira errada! Tente de novo.”
-
-Quando o acerto acontece, o item desaparece da tela.
-
-Função:
-Deixar o site mais dinâmico, interativo e educativo.
-
+# Conclusão e Aprendizados
+Ao longo do desenvolvimento do projeto, conseguimos:
+•	Trabalhar com HTML, CSS e JavaScript de maneira integrada, entendendo como cada linguagem contribui para o resultado final.
+•	Perceber a importância da ideação e da prototipagem, que ajudaram a organizar as ideias antes de começar a implementação.
+•	Vivenciar na prática o caráter extensionista, levando tecnologia, sustentabilidade e conscientização para além da sala de aula.
+•	Combinar educação ambiental com ferramentas digitais interativas, tornando o aprendizado mais atrativo.
+No fim, o resultado foi um site educativo que não apenas informa e conscientiza, mas também engaja o usuário de forma divertida e prática.
 
 
 Nomes e Ra:  
