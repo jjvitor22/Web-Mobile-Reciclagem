@@ -42,7 +42,7 @@ CSS:
 •	Fundo verde claro (#1bd39d).
 •	Links em negrito, pretos, que mudam para azul ao passar o mouse.
 •	Navegação organizada com Flexbox, centralizando os itens e aplicando espaçamento.
-Função: Exibir o título e apresentar o menu principal de navegação da página. ✅
+Função: Exibir o título e apresentar o menu principal de navegação da página. 
 ________________________________________
 Main (Conteúdo Principal)
 HTML:
