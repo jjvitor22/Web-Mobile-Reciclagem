@@ -1,5 +1,6 @@
 # Web-Mobile-Reciclagem
-Identificação do Problema 
+
+# Identificação do Problema 
 • O grupo reconheceu a crescente geração de lixo eletrônico e o impacto 
 ambiental causado pelo descarte incorreto. 
 • A necessidade de conscientizar e orientar a população sobre como descartar 
